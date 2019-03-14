@@ -1,0 +1,22 @@
+{
+   "manifest_version": 2,
+   "name": "YouTube it",
+   "description": "To search selected text on youtube",
+   "version": "1.0.0",
+   "author": "Abdul Basit",
+   "icons": {
+      "128": "icon_128.png",
+      "48": "icon_48.png",
+      "32": "icon_32.png"
+   },
+   "background": {
+      "scripts": [
+         "eventPage.js"
+      ],
+      "persistent": false
+   },
+   "permissions": [
+      "tabs",
+      "contextMenus"
+   ]
+}
